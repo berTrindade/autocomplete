@@ -22,7 +22,8 @@
   "scripts": {
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "start": "echo 'test'"
   },
   "config": {
     "commitizen": {
