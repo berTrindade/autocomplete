@@ -21,9 +21,10 @@
   },
   "scripts": {
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "test": "",
+    "test": "echo 'Test'",
     "postinstall": "husky install",
-    "start": "echo 'test'"
+    "start": "echo 'Start'",
+    "build": "echo 'Build'"
   },
   "config": {
     "commitizen": {

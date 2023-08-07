@@ -52,7 +52,8 @@ npm manifest:
       "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
       "test": "",
       "postinstall": "husky install",
-      "start": "echo 'test'"
+      "start": "",
+      "build": ""
     },
     "config": {
       "commitizen": {
