@@ -1,0 +1,5 @@
+{
+    "./apps/**/*.{js,ts, tsx}": [
+        "yarn eslint"
+    ]
+}
