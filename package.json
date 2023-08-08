@@ -7,6 +7,9 @@
     "packages/*",
     "apps/*"
   ],
+  "engines": {
+    "node": ">=14 <19"
+  },
   "author": "Bernardo Trindade de Abreu",
   "license": "MIT",
   "devDependencies": {
@@ -21,12 +24,12 @@
   },
   "scripts": {
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "test": "echo 'Test'",
     "postinstall": "husky install",
-    "start": "echo 'Start'",
-    "build": "echo 'Build'",
     "start:web": "yarn workspace @autocomplete/web dev",
-    "lint:web": "yarn workspace @autocomplete/web lint"
+    "lint:web": "yarn workspace @autocomplete/web lint",
+    "test:server": "yarn workspace @autocomplete/web test",
+    "start:server": "yarn workspace @autocomplete/web dev",
+    "lint:server": "yarn workspace @autocomplete/web lint"
   },
   "config": {
     "commitizen": {
