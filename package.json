@@ -27,8 +27,8 @@
     "postinstall": "husky install",
     "start:web": "yarn workspace @autocomplete/web dev",
     "lint:web": "yarn workspace @autocomplete/web lint",
-    "start:server": "yarn workspace @autocomplete/web dev",
-    "lint:server": "yarn workspace @autocomplete/web lint"
+    "start:server": "yarn workspace @autocomplete/server dev",
+    "lint:server": "yarn workspace @autocomplete/server lint"
   },
   "config": {
     "commitizen": {
