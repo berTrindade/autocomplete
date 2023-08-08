@@ -24,7 +24,9 @@
     "test": "echo 'Test'",
     "postinstall": "husky install",
     "start": "echo 'Start'",
-    "build": "echo 'Build'"
+    "build": "echo 'Build'",
+    "start:web": "yarn workspace @autocomplete/web dev",
+    "lint:web": "yarn workspace @autocomplete/web lint"
   },
   "config": {
     "commitizen": {

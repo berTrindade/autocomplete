@@ -5,6 +5,9 @@
     },
     "extends": [
         "standard",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:react-hooks/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended"
     ],
@@ -21,6 +24,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/prop-types": 0,
         "prettier/prettier": [
         "error",
         {
