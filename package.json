@@ -27,6 +27,7 @@
     "postinstall": "husky install",
     "start:web": "yarn workspace @autocomplete/web dev",
     "lint:web": "yarn workspace @autocomplete/web lint",
+    "test:web": "yarn workspace @autocomplete/web test",
     "start:server": "yarn workspace @autocomplete/server dev",
     "lint:server": "yarn workspace @autocomplete/server lint"
   },
