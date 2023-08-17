@@ -8,7 +8,7 @@ on:
   push:
     branches: [master]
     paths:
-      - "packages/web/**"
+      - "apps/web/**"
 
 jobs:
   test-routine:
