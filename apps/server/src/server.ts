@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 app.get('/search', async (req, res) => {
-  console.log('Hello!!!')
+  console.log('Hello!')
 
   const users = await prismaClient.user.findMany({
     where: {
